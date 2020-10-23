@@ -19,15 +19,13 @@ The latest FFplay and a simple hello world program have been tested to work perf
 If you are building for a Panther target:
 
 export MACOSX_DEPLOYMENT_TARGET=10.3
-./configure --exec-prefix=$app --prefix=$app --disable-x --disable-joystick --disable-haptic
+./configure --without-x --disable-joystick --disable-haptic
 make
 sudo make install
 
-(X11 probably works but was not test)
-
 If you are building for Tiger:
 export MACOSX_DEPLOYMENT_TARGET=10.4
-./configure --exec-prefix=$app --prefix=$app --disable-joystick --disable-haptic
+./configure --without-x --disable-joystick --disable-haptic
 make
 sudo make install
 
