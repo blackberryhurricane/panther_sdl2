@@ -1,4 +1,4 @@
-Panther_SDL2 is a fork of SDL2 (version 2.0.3) which is compatibile with Mac OS X 10.3.9 
+Panther_SDL2 is a fork of SDL2 (version 2.0.3) which is compatible with Mac OS X 10.3.9 
 and Mac OS X 10.4.x. Currently SDL2 2.0.3 requires an Intel Mac OS X 10.5 mac to run, and 
 the Mac OS X 10.7 SDK at the 10.5 MACOSX_DEPLOYMENT_TARGET to compile.
 
@@ -11,6 +11,8 @@ Thomas Bernard's original unified patch, and my indivisual patches created from 
 can be found in the folder 'thomas_bernard_sdl_2.0.3_patches'. My patches can be found in the 
 directory 'sdl2_2.0.3_panther_patches'. These are all against the official SDL2 version 2.0.3 
 release.
+
+The latest FFplay and a simple hello world program have been tested to work perfectly.
 
 == 
 
